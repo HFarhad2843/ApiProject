@@ -1,0 +1,17 @@
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\bin\Debug\net8.0\BlankSolution.Business.deps.json
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\bin\Debug\net8.0\BlankSolution.Business.dll
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\bin\Debug\net8.0\BlankSolution.Business.pdb
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\bin\Debug\net8.0\BlankSolution.Core.dll
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\bin\Debug\net8.0\BlankSolution.Data.dll
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\bin\Debug\net8.0\BlankSolution.Data.pdb
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\bin\Debug\net8.0\BlankSolution.Core.pdb
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\BlankSolution.Business.csproj.AssemblyReference.cache
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\BlankSolution.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\BlankSolution.Business.AssemblyInfoInputs.cache
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\BlankSolution.Business.AssemblyInfo.cs
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\BlankSolution.Business.csproj.CoreCompileInputs.cache
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\BlankSolution.Business.csproj.CopyComplete
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\BlankSolution.Business.dll
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\refint\BlankSolution.Business.dll
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\BlankSolution.Business.pdb
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\ref\BlankSolution.Business.dll
