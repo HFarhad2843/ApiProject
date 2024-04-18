@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlankSolution.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fd1a96343ebd08a9f55ebe45b2ef94d1aa3db47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63512b04610888cac25746cd82866df30e016210")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlankSolution.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlankSolution.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

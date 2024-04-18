@@ -9,6 +9,8 @@ namespace BlankSolution.Business
         public static void AddServices(this IServiceCollection services)
         {
             services.AddScoped<IGenreService, GenreService>();
+            services.AddScoped<IMovieService, MovieService>();
+
         }
     }
 }

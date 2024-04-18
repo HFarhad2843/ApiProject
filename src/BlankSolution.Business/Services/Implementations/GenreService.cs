@@ -1,6 +1,7 @@
 ﻿using BlankSolution.Business.Services.Interfaces;
 using BlankSolution.Core.Entities;
 using BlankSolution.Core.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlankSolution.Business.Services.Implementations
 {
@@ -15,7 +16,12 @@ namespace BlankSolution.Business.Services.Implementations
         }
         public async Task<IEnumerable<Genre>> GetAllAsync()
         {
-            return (IEnumerable<Genre>)await genreRepository.GetAllAsync();
+            return await genreRepository.GetAllAsync(x=>!x.IsDeleted);
+        }
+        public async Task<IEnumerable<Genre>>GetAllPaginated(int page = 1, int pageSize = 2)
+        {
+            var table = genreRepository.Table.AsQueryable();
+            return await table.Skip((page-1)*pageSize).Take(pageSize).ToListAsync();
         }
      
 

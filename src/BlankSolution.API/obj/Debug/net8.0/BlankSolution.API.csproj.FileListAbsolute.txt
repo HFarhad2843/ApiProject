@@ -141,3 +141,6 @@ C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.API\bin\Debug\net8.0\ru
 C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.API\obj\Debug\net8.0\BlankSolution.API.sourcelink.json
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

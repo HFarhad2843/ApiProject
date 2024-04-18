@@ -5,6 +5,5 @@ namespace BlankSolution.Core.Repositories
 {
     public interface IGenreRepository: IGenericRepository<Genre>
     {
-       
     }
 }

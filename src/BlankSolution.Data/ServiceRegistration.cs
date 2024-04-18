@@ -9,5 +9,7 @@ namespace BlankSolution.Data;
         public static void AddRepositories (this IServiceCollection services)
         {
             services.AddScoped<IGenreRepository,GenreRepository>();
-        }
+            services.AddScoped<IMovieRepository, MovieRepository>();
+
     }
+}

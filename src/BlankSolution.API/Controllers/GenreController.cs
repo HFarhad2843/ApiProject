@@ -21,6 +21,11 @@ namespace BlankSolution.API.Controllers
         {
             return Ok(await _genreService.GetAllAsync());
         }
+        [HttpGet("[action]")]
+        public async Task <IActionResult> GetAllPaginated(int page = 1, int pageSize = 2) 
+        {
+            return Ok(await _genreService.GetAllPaginated(page));
+        }
         [HttpPost("")]
         public async Task<IActionResult> CreateAsync(Genre genre)
         {

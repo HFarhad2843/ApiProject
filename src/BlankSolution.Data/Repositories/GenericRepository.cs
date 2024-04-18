@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 
 namespace BlankSolution.Data.Repositories
 {
-    public class GenericRepository<IEntity> : IGenericRepository<IEntity> where IEntity : BaseEntity, new()
+    public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : BaseEntity, new()
 
     {
         private readonly AppDbContext context;
@@ -15,7 +15,7 @@ namespace BlankSolution.Data.Repositories
             this.context = context;
         }
 
-        public DbSet<IEntity> Table => context.Set<IEntity>();
+        public DbSet<TEntity> Table => context.Set<TEntity>();
 
         public bool AnyGenreName(string name)
         {
@@ -27,13 +27,13 @@ namespace BlankSolution.Data.Repositories
             return await context.SaveChangesAsync();
         }
 
-        public void Delete(IEntity entity)
+        public void Delete(TEntity entity)
         {
             Table.Remove(entity);
         }
 
 
-        public async Task<IEnumerable<IEntity>> GetAllAsync(Expression<Func<IEntity, bool>> expression = null, params string[] includes)
+        public async Task<IEnumerable<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>> expression = null, params string[] includes)
         {
             var query = Table.AsQueryable();
             if (includes is not null)
@@ -48,7 +48,7 @@ namespace BlankSolution.Data.Repositories
                 : await query.ToListAsync();
         }
 
-        public async Task<IEntity> GetAsync(Expression<Func<IEntity, bool>> expression = null, params string[] includes)
+        public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> expression = null, params string[] includes)
         {
             var query = Table.AsQueryable();
             if (includes is not null)
@@ -63,12 +63,12 @@ namespace BlankSolution.Data.Repositories
                 : await query.FirstOrDefaultAsync();
         }
 
-        public async Task<IEntity> GetByIdAsync(int id)
+        public async Task<TEntity> GetByIdAsync(int id)
         {
             return await Table.FindAsync(id);
         }
 
-        public async Task InsertAsync(IEntity entity)
+        public async Task InsertAsync(TEntity entity)
         {
             await Table.AddAsync(entity);
         }
