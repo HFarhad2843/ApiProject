@@ -13,3 +13,4 @@ C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Data\obj\Debug\net8.0\B
 C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Data\obj\Debug\net8.0\refint\BlankSolution.Data.dll
 C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Data\obj\Debug\net8.0\BlankSolution.Data.pdb
 C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Data\obj\Debug\net8.0\ref\BlankSolution.Data.dll
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Data\obj\Debug\net8.0\BlankSolution.Data.sourcelink.json

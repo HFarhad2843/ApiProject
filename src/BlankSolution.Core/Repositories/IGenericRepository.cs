@@ -8,11 +8,11 @@ namespace BlankSolution.Core.Repositories
         where IEntity : BaseEntity, new()
     {
         DbSet<IEntity> Table { get; }
-        Task InsertAsync(TEntity entity);
-        Task<IEnumerable<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>> expression = null, params string[] includes);
-        Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> expression = null, params string[] includes);
-        Task<TEntity> GetByIdAsync(int id);
-        void Delete(TEntity entity);
+        Task InsertAsync(IEntity entity);
+        Task<IEnumerable<IEntity>> GetAllAsync(Expression<Func<IEntity, bool>> expression = null, params string[] includes);
+        Task<IEntity> GetAsync(Expression<Func<IEntity, bool>> expression = null, params string[] includes);
+        Task<IEntity> GetByIdAsync(int id);
+        void Delete(IEntity entity);
         Task<int> CommitAsync();
     }
 }

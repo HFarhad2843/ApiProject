@@ -15,18 +15,20 @@ namespace BlankSolution.Business.Services.Implementations
         }
         public async Task<IEnumerable<Genre>> GetAllAsync()
         {
-            return await genreRepository.GetAllAsync();
+            return (IEnumerable<Genre>)await genreRepository.GetAllAsync();
         }
-        public async Task <Genre> CreateAsync (Genre Genre)
-        {
-            await genreRepository.InsertAsync(Genre);
-            await genreRepository.CommitAsync();
-            return Genre;
-        }
+     
 
-        Task<IEnumerable<Genre>> IGenreService.GetAllAsync()
+        public async Task <Genre> CreateAsync(Genre genre)
         {
-            throw new NotImplementedException();
+            if (genreRepository.Table.Any(x=>x.Name==genre.Name))
+            {
+                throw new Exception("Name already exist!");
+            }
+
+            await genreRepository.InsertAsync(genre);
+            await genreRepository.CommitAsync();
+            return genre;
         }
 
         Task IGenreService.CreateAsync(Genre genre)

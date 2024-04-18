@@ -22,10 +22,10 @@ namespace BlankSolution.API.Controllers
             return Ok(await _genreService.GetAllAsync());
         }
         [HttpPost("")]
-        public async Task<IActionResult> Create(Genre genre)
+        public async Task<IActionResult> CreateAsync(Genre genre)
         {
-            return Ok(await _genreService.CreateAsync(genre));
-
+            await _genreService.CreateAsync(genre);
+            return Ok();
         }
     }
 }

@@ -15,3 +15,4 @@ C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8
 C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\refint\BlankSolution.Business.dll
 C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\BlankSolution.Business.pdb
 C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\ref\BlankSolution.Business.dll
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Business\obj\Debug\net8.0\BlankSolution.Business.sourcelink.json

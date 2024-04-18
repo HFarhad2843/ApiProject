@@ -12,3 +12,4 @@ C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Core\obj\Debug\net8.0\r
 C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Core\bin\Debug\net8.0\BlankSolution.Core.runtimeconfig.json
 C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Core\obj\Debug\net8.0\BlankSolution.Core.genruntimeconfig.cache
 C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Core\obj\Debug\net8.0\BlankSolution.Core.csproj.AssemblyReference.cache
+C:\Users\Pc\source\repos\BlankSolution\src\BlankSolution.Core\obj\Debug\net8.0\BlankSolution.Core.sourcelink.json
